@@ -4,7 +4,7 @@
 
 #### This is my achievement
 
-####        ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Linuxu5610&show_icons=true&theme=merko)
+####        ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Linuxu5610&show_icons=true&theme=dreakmerko)
 
 ### My most used programming language
 
