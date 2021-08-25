@@ -2,7 +2,7 @@
 
 ##### I am a primary school student in China, I am going to junior high school soon, I hope you will like the project I developed.
 
-#### This is my achievement
+#### This is my achievement.
 
 ####        ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Linuxu5610&show_icons=true&theme=merko)
 
