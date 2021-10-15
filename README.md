@@ -9,8 +9,7 @@
 ### My most used programming language
 
 ​          ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Jefferson-Hsu&layout=compact)
-```python```
-import cv2
+```import cv2
 import face_recognition
 img=cv2.imread('face/face7.jpg')
 locations=face_recognition.face_locations(img)
@@ -19,10 +18,11 @@ for top,right,bottom,left in locations:
 cv2.imshow('Window',img)
 cv2.waitKey(0)
 cv2.destroyAllWindows
+```
 
 ### This is my favorite project
 
-​          ![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Jefferson-Hsu&repo=Machine-learning)
+​          ![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Jefferson-Hsu&repo=facial-racognition)
 
 #### This is a machine learning project that uses sklearn's own model to predict Boston housing prices.
 
