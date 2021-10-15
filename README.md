@@ -9,6 +9,16 @@
 ### My most used programming language
 
 ​          ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Jefferson-Hsu&layout=compact)
+```python```
+import cv2
+import face_recognition
+img=cv2.imread('face/face7.jpg')
+locations=face_recognition.face_locations(img)
+for top,right,bottom,left in locations:
+    cv2.rectangle(img,(left,top),(right,bottom),(0,255,0),2)
+cv2.imshow('Window',img)
+cv2.waitKey(0)
+cv2.destroyAllWindows
 
 ### This is my favorite project
 
