@@ -22,7 +22,7 @@ cv2.destroyAllWindows
 
 ### This is my favorite project
 
-​          ![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Jefferson-Hsu&repo=facial-racognition)
+​          ![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Jefferson-Hsu&repo=facial-recognition)
 
 #### This is a machine learning project that uses sklearn's own model to predict Boston housing prices.
 
