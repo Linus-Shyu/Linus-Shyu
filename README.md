@@ -32,7 +32,9 @@ AWMTFT@163.com
 
 I want to learning vue
 
+![XuFaxin2022的shield](https://statcard.vercel.app/shield?id=669144&dark_mode=true) 
 
+![wangao的练习情况](https://statcard.vercel.app/api?id=669144&card_width=750&dark_mode=true)
 
 
 
