@@ -1,40 +1,35 @@
-# Welcome to my GitHub homepage
+## XuFaxin的主页已经访问了：
+![](https://profile-counter.glitch.me/Jefferson-Hsu/count.svg)次
+## XuFaxin的博客
 
-##### I am a primary school student in China, I am going to junior high school soon, I hope you will like the project I developed.
+[XuFaxin&Blog](https://Jefferson-Hsu.github.io)
 
-#### This is my achievement.
+![](https://api.xecades.xyz/api?quote=QwQ&img=2&color=102%2C204%2C255%2C1&str=2021%E5%B9%B4%E6%9C%AB&bilibili=XuFaxin2022&codeforces=XuFaxin2022&libreoj=XuFaxin2022&luogu=XuFaxin2022&zhihu=初一的老许)
+## XuFaxin的贺题情况
+![XuFaxin2022的shield](https://statcard.vercel.app/shield?id=669144)
 
-####        ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Jefferson-Hsu&show_icons=true&theme=merko)
+[![](https://img.shields.io/badge/-C++-269539?style=flat-square&logo=c%2B%2B&logoColor=ffffff)](https://www.cplusplus.com/)
+[![](https://img.shields.io/badge/-visualstudio-blue?style=flat-square&logo=visualstudio&logoColor=ffffff)](http://code.visualstudio.com)
+[![](https://img.shields.io/badge/-Sublime-orange?style=flat-square&logo=SublimeText&logoColor=ffffff)](https://www.sublimetext.com)
+[![](https://img.shields.io/badge/-codeforces-blue?style=flat-square&logo=codeforces&logoColor=ffffff)](https://codeforces.com/profile/XuFaxin2022?csrf_token=a2138662fb825a29618d31955a77fbd7)
+[![](https://img.shields.io/badge/-Leetcode-orange?style=flat-square&logo=Leetcode&logoColor=ffffff)](https://https://leetcode-cn.com/u/sad-almeida2gd//)
 
-### My most used programming language
+## XuFaxin个人介绍
+![](https://luogu-card.vercel.app/about?id=669144&card_width=1)
+## XuFaxin的练习状况
+![XuFaxin2022的练习情况](https://statcard.vercel.app/api?id=669144&card_width=750&dark_mode=true)
+## XuFaxin的咕值状况
 
-​          ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Jefferson-Hsu&layout=compact)
-```import cv2
-import face_recognition
-img=cv2.imread('face/face7.jpg')
-locations=face_recognition.face_locations(img)
-for top,right,bottom,left in locations:
-    cv2.rectangle(img,(left,top),(right,bottom),(0,255,0),2)
-cv2.imshow('Window',img)
-cv2.waitKey(0)
-cv2.destroyAllWindows
-```
+![](http://luogu.wao3.cn/api/guzhi?id=669144&scores=100,11,0,0,0&card_width=750&dark_mode=true)
+## XuFaxin常用的语言
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Jefferson-Hsu&layout=compact)
 
-### This is my favorite project
+## XuFaxinGitHub整体统计
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Jefferson-Hsu&show_icons=true&theme=merko)
 
-​          ![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Jefferson-Hsu&repo=facial-recognition)
 
-#### This is a machine learning project that uses sklearn's own model to predict Boston housing prices.
 
-### My email
 
-AWMTFT@163.com
-
-I want to learning vue
-
-![XuFaxin2022的shield](https://statcard.vercel.app/shield?id=669144&dark_mode=true) 
-
-![wangao的练习情况](https://statcard.vercel.app/api?id=669144&card_width=750&dark_mode=true)
 
 
 
