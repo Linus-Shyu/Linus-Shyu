@@ -34,3 +34,24 @@ NOI 2024 Winter Camp: finalists
 NOI2024冬令营入围者
 
 #### Music field
+
+2020 China Conservatory of Music Piano Test Level 7
+
+中国音乐学院钢琴考级四级
+
+2020 China Conservatory of Music Piano Test Level 7
+
+2020 中国音乐学院钢琴考级七级
+
+2018 Central Conservatory of Music Music Theory Examination Beginner
+
+2018 中央音乐学院乐理考级初级
+
+2019 Central Conservatory of Music Music Theory Examination Intermediate Level
+
+2019 中央音乐学院乐理考级中级
+
+2019 Central Conservatory of Music Piano Grade Level 2
+
+2019 中央音乐学院钢琴考级二级
+
