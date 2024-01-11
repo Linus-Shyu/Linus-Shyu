@@ -59,3 +59,8 @@ NOI2024冬令营入围者
 
 2019 中央音乐学院钢琴考级二级
 
+### Volunteering / 志愿者经历
+
+The 28th United Nations Climate Change Conference: volunteer
+
+第二十八届联合国气候变化大会：志愿者
