@@ -25,6 +25,10 @@ I also like riding bicycles, skateboarding, and photography.
 
 2023 CCF非专业级软件能力认证第一轮：三等
 
+2022 United States of America Computing Olympiad: Bronze
+
+2022 美国奥林匹克计算机竞赛：铜组
+
 2023 National Olympiad in Informatics in Provinces: finalists
 
 2023 全国青少年信息学奥林匹克联赛：入围者
@@ -35,7 +39,7 @@ NOI2024冬令营入围者
 
 #### Music field / 音乐领域
 
-2020 China Conservatory of Music Piano Test Level 7
+2020 China Conservatory of Music Piano Test Level 4
 
 2020 中国音乐学院钢琴考级四级
 
