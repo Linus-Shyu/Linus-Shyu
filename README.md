@@ -37,7 +37,7 @@ NOI2024冬令营入围者
 
 2020 China Conservatory of Music Piano Test Level 7
 
-中国音乐学院钢琴考级四级
+2020 中国音乐学院钢琴考级四级
 
 2020 China Conservatory of Music Piano Test Level 7
 
