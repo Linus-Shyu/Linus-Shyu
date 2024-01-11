@@ -1,4 +1,4 @@
-### My interview / 个人简介
+### About me / 个人简介
 
 I am Linus Shyu, a middle school student from China. I like computer science and develop some interesting projects.
 
@@ -15,5 +15,18 @@ I am a self-media creator in the technology field. I really like to share what I
 
 I also like riding bicycles, skateboarding, and photography.
 
-我也喜欢骑自行车，滑滑板，摄影
+我也喜欢骑自行车，滑滑板，摄影。
 
+Honors & awards / 荣誉与奖励
+
+2023 Certified Software Professional Junior first round: Third Prize
+
+2023 CCF非专业级软件能力认证第一轮：三等
+
+2023 National Olympiad in Informatics in Provinces: finalists
+
+2023 全国青少年信息学奥林匹克联赛：入围者
+
+NOI 2024 Winter Camp: finalists
+
+NOI2024冬令营入围者
