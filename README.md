@@ -15,7 +15,7 @@ I am a self-media creator in the technology field. I really like to share what I
 
 I also like riding bicycles, skateboarding, and photography.
 
-我也喜欢骑自行车，滑滑板，摄影。
+我也喜欢骑自行车，滑滑板，摄影，弹钢琴。
 
 ### Honors & awards / 荣誉与奖励
 
@@ -35,7 +35,7 @@ I also like riding bicycles, skateboarding, and photography.
 
 NOI 2024 Winter Camp: finalists
 
-NOI2024冬令营入围者
+NOI2024 冬令营：入围者
 
 #### Music field / 音乐领域
 
