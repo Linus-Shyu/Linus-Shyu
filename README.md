@@ -1,10 +1,10 @@
-### My interview
+### My interview/个人简介
 
 I am Linus Shyu, a middle school student from China. I like computer science and develop some interesting projects.
 
 我是许发鑫，一个来自中国的初中生，我喜欢计算机科学和开发一些有意思的项目。
 
-### My hobby
+### My hobby/我的爱好
 
 I am a self-media creator in the technology field. I really like to share what I have learned in technology. This is my Bilibili channel and YouTube channel.
 
