@@ -19,7 +19,7 @@ I also like riding bicycles, skateboarding, and photography.
 
 ### Honors & awards / 荣誉与奖励
 
-#### Computer field
+#### Computer field / 计算机领域
 
 2023 Certified Software Professional Junior first round: Third Prize
 
@@ -33,7 +33,7 @@ NOI 2024 Winter Camp: finalists
 
 NOI2024冬令营入围者
 
-#### Music field
+#### Music field / 音乐领域
 
 2020 China Conservatory of Music Piano Test Level 7
 
