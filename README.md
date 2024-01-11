@@ -19,6 +19,8 @@ I also like riding bicycles, skateboarding, and photography.
 
 ### Honors & awards / 荣誉与奖励
 
+#### Computer field
+
 2023 Certified Software Professional Junior first round: Third Prize
 
 2023 CCF非专业级软件能力认证第一轮：三等
@@ -30,3 +32,5 @@ I also like riding bicycles, skateboarding, and photography.
 NOI 2024 Winter Camp: finalists
 
 NOI2024冬令营入围者
+
+#### Music field
