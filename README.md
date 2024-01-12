@@ -13,7 +13,7 @@ I am a self-media creator in the technology field. I really like to share what I
 [![LinusShyu YouTube](https://img.shields.io/badge/-YouTube-red)](https://www.youtube.com/channel/UC4KtR-YsWDfWtikRGOZb58Q)
 [![LinusShyu Bilibili](https://img.shields.io/badge/-Bilibili-blue)](https://space.bilibili.com/411591950?spm_id_from=333.1007.0.0)
 
-I also like riding bicycles, skateboarding, and photography.
+I also like riding bicycles, skateboarding,photography and play piano.
 
 我也喜欢骑自行车，滑滑板，摄影，弹钢琴。
 
