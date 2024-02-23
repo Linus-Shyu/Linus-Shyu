@@ -27,10 +27,6 @@ I also like riding bicycles, skateboarding,photography and play piano.
 
 2022 United States of America Computing Olympiad: Bronze
 
-2022 美国奥林匹克计算机竞赛：铜组
-
-2023 National Olympiad in Informatics in Provinces: finalists
-
 2023 全国青少年信息学奥林匹克联赛：入围者
 
 NOI 2024 Winter Camp: finalists
