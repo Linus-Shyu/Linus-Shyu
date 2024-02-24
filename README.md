@@ -25,7 +25,7 @@ I also like riding bicycles, skateboarding,photography and play piano.
 
 2023 CCF非专业级软件能力认证第一轮：三等
 
-2022 United States of America Computing Olympiad: Bronze
+2023 National Olympiad in Informatics in Provinces: finalists
 
 2023 全国青少年信息学奥林匹克联赛：入围者
 
