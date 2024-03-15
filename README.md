@@ -18,10 +18,6 @@ I also like riding bicycles, skateboarding,photography and play piano.
 
 #### Computer field / 计算机领域
 
-Asia-Pacific Informatics Olympiad: International competition finalists
-
-亚洲与太平洋地区信息学奥林匹克竞赛：国际赛入围者
-
 NOI 2024 Winter Camp: finalists
 
 NOI2024 冬令营：入围者
