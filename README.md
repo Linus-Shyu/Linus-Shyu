@@ -27,6 +27,7 @@ NOI2024 冬令营：入围者
 2023 全国青少年信息学奥林匹克联赛：入围者
 
 Stanford Math Tournament 2024 Online: finalists
+
 斯坦福数学锦标赛 2024 线上：入围者
 
 #### Music field / 音乐领域
