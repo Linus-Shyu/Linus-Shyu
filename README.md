@@ -18,17 +18,47 @@ I also like riding bicycles, skateboarding,photography and play piano.
 
 #### Computer field / 计算机领域
 
+Adventure X 2025 Hackathon: finalists
+
+Adventure X 2025 黑客松大赛：入围者
+
+NOI 2025 Winter Camp: finalists
+
+NOI2025 冬令营：入围者
+
 NOI 2024 Winter Camp: finalists
 
 NOI2024 冬令营：入围者
+
+2024 National Olympiad in Informatics in Provinces: finalists
+
+2024 全国青少年信息学奥林匹克联赛：入围者
 
 2023 National Olympiad in Informatics in Provinces: finalists
 
 2023 全国青少年信息学奥林匹克联赛：入围者
 
+The 40th Qinghai Youth Science and Technology Innovation Competition: finalists
+
+青海省第四十届青少年科技创新大赛: 入围者
+
 Stanford Math Tournament 2024 Online: finalists
 
 斯坦福数学锦标赛 2024 线上：入围者
+
+#### Robotics / 机器人领域
+
+Captain of a school's robotics team
+
+某学校的机器人队队长
+
+The 15th Qinghai Province Primary and Secondary School Student Robot Competition: finalists
+
+青海省第十五届中小学生机器人竞赛: 入围者
+
+Huzhu District Primary and Secondary School Robot Science Festival: finalists
+
+互助区中小学机器人科技节：入围者
 
 #### Music field / 音乐领域
 
