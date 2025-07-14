@@ -14,7 +14,7 @@ I also like riding bicycles, skateboarding,photography and play piano.
 
 我也喜欢骑自行车，滑滑板，摄影，弹钢琴。
 
-### Honors & awards / 荣誉与奖励
+### Competition and internship experience / 竞赛与实习经历
 
 #### Computer field / 计算机领域
 
