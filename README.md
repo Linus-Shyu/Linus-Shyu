@@ -18,6 +18,10 @@ I also like riding bicycles, skateboarding,photography and play piano.
 
 #### Computer field / 计算机领域
 
+Google I/O Connect China
+
+Google 2025开发者大会：嘉宾
+
 Adventure X 2025 Hackathon: finalists
 
 Adventure X 2025 黑客松大赛：入围者
