@@ -44,8 +44,8 @@ jobs:
           import pathlib, re
 
           for path in pathlib.Path("dist").glob("*.svg"):
-              # 文件名里带 light 的用白底，其余用黑底
-              plate_color = "#ffffff" if "light" in path.stem else "#0b0b10"
+              # 文件名里带 light 的用白底，其余用 GitHub dark 的画布色，让图直接融进页面
+              plate_color = "#ffffff" if "light" in path.stem else "#0d1117"
 
               svg = path.read_text(encoding="utf-8")
               svg, ribbon = re.subn(r'<rect class="u u[0-9a-z]+"[^>]*/>', "", svg)

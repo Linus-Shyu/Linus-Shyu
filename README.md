@@ -44,9 +44,9 @@ agents that run unattended, and low-level CLIs.
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Linus-Shyu&show_icons=true&hide_border=true&bg_color=0b0b10&title_color=e0c3fc&text_color=c9c1e0&icon_color=a855f7&count_private=false&rank_icon=github" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Linus-Shyu&show_icons=true&hide_border=true&bg_color=ffffff&title_color=5b21b6&text_color=3f3a4a&icon_color=7c3aed&count_private=false&rank_icon=github" />
-    <img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=Linus-Shyu&show_icons=true&hide_border=true&bg_color=0b0b10&title_color=e0c3fc&text_color=c9c1e0&icon_color=a855f7&count_private=false&rank_icon=github" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Linus-Shyu&show_icons=true&hide_border=true&bg_color=0b0b10&title_color=e0c3fc&text_color=c9c1e0&icon_color=a855f7&count_private=false&rank_icon=github&hide=contribs" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Linus-Shyu&show_icons=true&hide_border=true&bg_color=ffffff&title_color=5b21b6&text_color=3f3a4a&icon_color=7c3aed&count_private=false&rank_icon=github&hide=contribs" />
+    <img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=Linus-Shyu&show_icons=true&hide_border=true&bg_color=0b0b10&title_color=e0c3fc&text_color=c9c1e0&icon_color=a855f7&count_private=false&rank_icon=github&hide=contribs" />
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs?username=Linus-Shyu&layout=compact&hide_border=true&bg_color=0b0b10&title_color=e0c3fc&text_color=c9c1e0&langs_count=6&size_weight=0.4&count_weight=0.6&hide=html%2Ccss" />
