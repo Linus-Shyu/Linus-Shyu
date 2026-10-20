@@ -9,10 +9,10 @@
 </div>
 
 ```console
-$ ssh linus@github
+$ ssh Linus@github
 
 $ whoami
-linus
+Linus
 
 $ ls -F
 about.txt   projects/   contributions.log   guestbook.log   contact

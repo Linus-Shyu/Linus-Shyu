@@ -33,7 +33,7 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           # dark + light 两版，README 里用 <picture> 按主题切换
           outputs: |
-            dist/github-snake.svg?color_snake=%238affb2&color_dots=%23161b22,%23123c24,%231b6a3a,%2327a455,%2339d353
+            dist/github-snake.svg?color_snake=%239affbd&color_dots=%23161b22,%2314402a,%231f7a44,%232ec65c,%233fe066
             dist/github-snake-light.svg?color_snake=%230c7a43&color_dots=%23eef1ea,%23d9ecdd,%23b7e0c6,%236fc896,%2334b56b
 
       # snk 本身不支持背景色，这里做两步收尾：

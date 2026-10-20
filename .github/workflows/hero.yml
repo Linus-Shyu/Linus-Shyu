@@ -1,0 +1,37 @@
+name: Generate Hero
+
+# 每天把 neofetch 顶图里的 repos / stars / followers 重新拉一次，
+# 有变化就提交回 assets/。数字来自 GitHub API，不会写死。
+on:
+  schedule:
+    # 跟在 snake 之后（snake 是 00:00）
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Render hero from live stats
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/make_hero.py
+
+      - name: Commit if the numbers changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/hero-dark.svg assets/hero-light.svg
+          if git diff --cached --quiet; then
+            echo "stats unchanged"
+          else
+            git commit -m "chore(hero): refresh repos/stars/followers"
+            git push
+          fi
