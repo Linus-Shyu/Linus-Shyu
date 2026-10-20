@@ -16,9 +16,9 @@ Young Agent Lab · Hong Kong · https://linusshyu.dev
 
 ### <a name="help"></a>`$ help`
 
-上面的每条命令都能点：<code>$ <a href="#projects">ls projects/</a></code> · <code>$ <a href="#log">tail -f contributions.log</a></code> · <code>$ <a href="#last">last</a></code> · <code>$ <a href="#contact">contact</a></code>
+Every line below is clickable — commands jump to a section, <code>details</code> expand right here：<code>$ <a href="#projects">ls projects/</a></code> · <code>$ <a href="#log">tail -f contributions.log</a></code> · <code>$ <a href="#last">last</a></code> · <code>$ <a href="#contact">contact</a></code>
 
-下面这些是**可以直接展开的**，点一下就出结果，不用跳页面。
+下面这些 <code>details</code> 都是**就地展开**的，点一下就在当前页面出结果。
 
 ### <a name="projects"></a>`$ ls projects/`
 
@@ -83,7 +83,7 @@ Young Agent Lab · Hong Kong · https://linusshyu.dev
 <details>
 <summary><code>$ play snake</code></summary>
 
-同一条蛇可以自己玩：[打开游玩版](https://platane.github.io/snk/)，在输入框里填 `Linus-Shyu` 就能用我的贡献图开一局。
+The same snake is playable: open [platane.github.io/snk](https://platane.github.io/snk/) and type `Linus-Shyu` to play on my contribution graph.
 
 </details>
 
@@ -93,7 +93,7 @@ Young Agent Lab · Hong Kong · https://linusshyu.dev
 _Nobody has signed in yet — you could be the first._
 <!-- GUESTBOOK:END -->
 
-<code>$ <a href="https://github.com/Linus-Shyu/Linus-Shyu/issues/new?template=guestbook.yml">echo "hi" >> guestbook.log</a></code> — 填一行字，下面这张表就会多一行。
+<code>$ <a href="https://github.com/Linus-Shyu/Linus-Shyu/issues/new?template=guestbook.yml">echo "hi" >> guestbook.log</a></code> — one line, and the table above grows by a row.
 
 ### <a name="contact"></a>`$ contact`
 
