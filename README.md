@@ -40,9 +40,7 @@ Young Agent Lab · Hong Kong · https://linusshyu.dev
 ### <a name="last"></a>`$ last`
 
 <!-- GUESTBOOK:START -->
-| `logged` | visitor | note |
-|:--|:--|:--|
-| `2026-10-20` | [`@Linus-Shyu`](https://github.com/Linus-Shyu) | `test entry from the build session — 验证留言板链路` |
+_Nobody has signed in yet — you could be the first._
 <!-- GUESTBOOK:END -->
 
 <a name="sign"></a>
