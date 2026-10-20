@@ -1,40 +1,77 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" width="1000" height="260" role="img" aria-label="Linus Shyu — native macOS apps, autonomous agents, on-chain tools">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 380" width="1000" height="380" role="img" aria-label="Linus Shyu terminal">
   <defs>
-    <linearGradient id="term-light-bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#e7f3ea"/><stop offset="100%" stop-color="#f8fcf5"/>
+    <linearGradient id="nf-light-page" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f1f4ef"/>
+      <stop offset="100%" stop-color="#fbfcf9"/>
     </linearGradient>
-    <radialGradient id="term-light-light" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    <radialGradient id="nf-light-glow" cx="18%" cy="8%" r="80%">
+      <stop offset="0%" stop-color="#39d353" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#39d353" stop-opacity="0"/>
     </radialGradient>
+    <radialGradient id="nf-light-vignette" cx="50%" cy="50%" r="72%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.08"/>
+    </radialGradient>
+    <pattern id="nf-light-scan" width="3" height="3" patternUnits="userSpaceOnUse">
+      <rect width="3" height="1" fill="#000000" opacity="0.035"/>
+    </pattern>
+    <filter id="nf-light-shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#000000" flood-opacity="0.18"/>
+    </filter>
+    <filter id="nf-light-blur"><feGaussianBlur stdDeviation="3.2"/></filter>
     <style>
-      .cursor { animation: term-light-blink 1.1s steps(1) infinite; }
-      @keyframes term-light-blink { 0%,49% { opacity: 1 } 50%,100% { opacity: 0 } }
+      .c{animation:nf-light-blink 1.1s steps(1) infinite}
+      @keyframes nf-light-blink{0%,49%{opacity:1}50%,100%{opacity:0}}
     </style>
   </defs>
 
-  <rect width="1000" height="260" rx="20" fill="url(#term-light-bg)"/>
-  <ellipse cx="820" cy="10" rx="380" ry="230" fill="url(#term-light-light)"/>
-  <g transform="translate(271,240) rotate(-37) scale(0.94)" opacity="0.95"><path d="M0 0 q10 -14 0 -26 q-10 12 0 26" fill="#7fc79a"/></g>
-  <g transform="translate(188,233) rotate(-42) scale(0.94)" opacity="0.95"><path d="M0 0 q10 -14 0 -26 q-10 12 0 26" fill="#9ed8b0"/></g>
-  <g transform="translate(969,240) rotate(47) scale(0.88)" opacity="0.95"><path d="M0 0 q10 -14 0 -26 q-10 12 0 26" fill="#9ed8b0"/></g>
-  <g transform="translate(579,242) rotate(-15) scale(1.09)" opacity="0.95"><path d="M0 0 q10 -14 0 -26 q-10 12 0 26" fill="#9ed8b0"/></g>
-  <g transform="translate(298,237) rotate(-47) scale(1.08)" opacity="0.95"><path d="M0 0 q10 -14 0 -26 q-10 12 0 26" fill="#7fc79a"/></g>
-  <g transform="translate(849,239) rotate(-26) scale(0.91)" opacity="0.95"><path d="M0 0 q10 -14 0 -26 q-10 12 0 26" fill="#9ed8b0"/></g>
-  <g transform="translate(672,242) rotate(-39) scale(0.92)" opacity="0.95"><path d="M0 0 q10 -14 0 -26 q-10 12 0 26" fill="#7fc79a"/></g>
-  <g transform="translate(427,247) rotate(-19) scale(0.89)" opacity="0.95"><path d="M0 0 q10 -14 0 -26 q-10 12 0 26" fill="#9ed8b0"/></g>
-  <g transform="translate(316,233) rotate(20) scale(0.80)" opacity="0.95"><path d="M0 0 q10 -14 0 -26 q-10 12 0 26" fill="#b6e3c4"/></g>
+  <rect width="1000" height="380" rx="22" fill="url(#nf-light-page)"/>
 
-  <rect x="40" y="34" width="920" height="192" rx="14" fill="#0d2a1c" opacity="0.10"/>
-  <rect x="40" y="30" width="920" height="192" rx="14" fill="#fcfffb" stroke="#d2e6d8"/>
-  <path d="M40 44 a14 14 0 0 1 14 -14 h892 a14 14 0 0 1 14 14 v20 h-920 Z" fill="#e4f0e7"/>
-  <circle cx="62" cy="47" r="4.4" fill="#eda4a4"/><circle cx="77" cy="47" r="4.4" fill="#eed49a"/><circle cx="92" cy="47" r="4.4" fill="#a3dcae"/>
-  <text x="112" y="51.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, 'JetBrains Mono', Consolas, monospace" font-size="11.5" fill="#6b8c79">linus@agent-lab — ~/profile</text>
+  <rect x="24" y="24" width="952" height="332" rx="14" fill="#f7f9f4" stroke="#d7ded7" filter="url(#nf-light-shadow)"/>
+  <path d="M24 38 a14 14 0 0 1 14 -14 h924 a14 14 0 0 1 14 14 v18 h-952 Z" fill="#ecefea"/>
+  <circle cx="46" cy="47" r="5" fill="#ff5f57"/><circle cx="64" cy="47" r="5" fill="#febc2e"/><circle cx="82" cy="47" r="5" fill="#28c840"/>
+  <text x="120" y="52" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, 'JetBrains Mono', Consolas, monospace" font-size="12" fill="#758a7a">linus — zsh — 90×26</text>
 
-  <text x="64" y="92" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, 'JetBrains Mono', Consolas, monospace" font-size="13.5" fill="#6b8c79">~/profile $ <tspan fill="#2f7d52">whoami</tspan></text>
-  <text x="64" y="127" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, 'JetBrains Mono', Consolas, monospace" font-size="30" font-weight="700" fill="#16301f" letter-spacing="-0.6">Linus Shyu</text>
-  <text x="64" y="156" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, 'JetBrains Mono', Consolas, monospace" font-size="13.5" fill="#6b8c79">~/profile $ <tspan fill="#2f7d52">cat about.txt</tspan></text>
-  <text x="64" y="180" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, 'JetBrains Mono', Consolas, monospace" font-size="13" fill="#16301f">native macOS apps · autonomous agents · on-chain tools</text>
-  <text x="64" y="207" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, 'JetBrains Mono', Consolas, monospace" font-size="13.5" fill="#6b8c79">~/profile $</text>
-  <rect class="cursor" x="146" y="195" width="8" height="15" fill="#2f7d52"/>
+  <rect x="24" y="56" width="952" height="300" fill="url(#nf-light-glow)"/>
+
+  <!-- snake logo (neofetch art) -->
+  <polyline points="58.5,134.5 273,134.5 273,147.5 58.5,147.5 58.5,160.5 273,160.5 273,173.5 58.5,173.5 58.5,186.5 143,186.5" fill="none" stroke="#0c7a43" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="143" cy="186.5" r="7.5" fill="#12a05a"/>
+  <circle cx="145" cy="184.5" r="1.8" fill="#0b0d0c"/>
+  <circle cx="145" cy="189.5" r="1.8" fill="#0b0d0c"/>
+
+  <!-- info column -->
+  <text x="316" y="120" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, 'JetBrains Mono', Consolas, monospace" font-size="20" font-weight="700" fill="#0c7a43" filter="url(#nf-light-blur)" opacity="0.55">linus@linus</text>
+  <text x="316" y="120" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, 'JetBrains Mono', Consolas, monospace" font-size="20" font-weight="700" fill="#0c7a43">linus@linus</text>
+  <text x="316" y="138" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, 'JetBrains Mono', Consolas, monospace" font-size="12" fill="#758a7a">──────────────────────────────────────</text>
+
+  <text x="316" y="168" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, 'JetBrains Mono', Consolas, monospace" font-size="13.5" font-weight="700" fill="#0f7c48">name     </text>
+  <text x="402" y="168" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, 'JetBrains Mono', Consolas, monospace" font-size="13.5" fill="#23281f">Linus Shyu</text>
+
+  <text x="316" y="190" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, 'JetBrains Mono', Consolas, monospace" font-size="13.5" font-weight="700" fill="#0f7c48">company  </text>
+  <text x="402" y="190" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, 'JetBrains Mono', Consolas, monospace" font-size="13.5" fill="#23281f">Young Agent Lab</text>
+
+  <text x="316" y="212" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, 'JetBrains Mono', Consolas, monospace" font-size="13.5" font-weight="700" fill="#0f7c48">location </text>
+  <text x="402" y="212" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, 'JetBrains Mono', Consolas, monospace" font-size="13.5" fill="#23281f">Kowloon City District, Hong Kong</text>
+
+  <text x="316" y="234" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, 'JetBrains Mono', Consolas, monospace" font-size="13.5" font-weight="700" fill="#0f7c48">website  </text>
+  <text x="402" y="234" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, 'JetBrains Mono', Consolas, monospace" font-size="13.5" fill="#b45309">linusshyu.dev</text>
+
+  <text x="316" y="256" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, 'JetBrains Mono', Consolas, monospace" font-size="13.5" font-weight="700" fill="#0f7c48">langs    </text>
+  <text x="402" y="256" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, 'JetBrains Mono', Consolas, monospace" font-size="13.5" fill="#23281f">Swift · Rust · TypeScript · Python · Solidity</text>
+
+  <text x="316" y="278" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, 'JetBrains Mono', Consolas, monospace" font-size="13.5" font-weight="700" fill="#0f7c48">focus    </text>
+  <text x="402" y="278" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, 'JetBrains Mono', Consolas, monospace" font-size="13.5" fill="#23281f">macOS apps · autonomous agents · on-chain tools</text>
+
+  <text x="316" y="300" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, 'JetBrains Mono', Consolas, monospace" font-size="13.5" font-weight="700" fill="#0f7c48">contact  </text>
+  <text x="402" y="300" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, 'JetBrains Mono', Consolas, monospace" font-size="13.5" fill="#23281f">@Linus_Shyu</text>
+
+  <!-- prompt -->
+  <text x="48" y="332" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, 'JetBrains Mono', Consolas, monospace" font-size="14" fill="#0c7a43">➜</text>
+  <text x="70" y="332" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, 'JetBrains Mono', Consolas, monospace" font-size="14" fill="#23281f">~</text>
+  <text x="92" y="332" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, 'JetBrains Mono', Consolas, monospace" font-size="14" fill="#758a7a">$</text>
+  <rect class="c" x="112" y="320" width="9" height="15" fill="#0c7a43"/>
+
+  <rect x="24" y="24" width="952" height="332" rx="14" fill="url(#nf-light-scan)"/>
+  <rect width="1000" height="380" rx="22" fill="url(#nf-light-vignette)"/>
 </svg>

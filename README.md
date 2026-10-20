@@ -3,22 +3,24 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Linus-Shyu/Linus-Shyu/master/assets/hero-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Linus-Shyu/Linus-Shyu/master/assets/hero-light.svg" />
-  <img alt="Linus Shyu — native macOS apps, autonomous agents, on-chain tools" src="https://raw.githubusercontent.com/Linus-Shyu/Linus-Shyu/master/assets/hero-light.svg" width="100%" />
+  <img alt="Linus Shyu — neofetch" src="https://raw.githubusercontent.com/Linus-Shyu/Linus-Shyu/master/assets/hero-dark.svg" width="100%" />
 </picture>
 
 </div>
 
 ```console
+$ ssh linus@github
+
+$ whoami
+linus
+
+$ ls -F
+about.txt   projects/   contributions.log   guestbook.log   contact
+
 $ cat about.txt
-native macOS apps · autonomous agents · on-chain tools
-Young Agent Lab · Hong Kong · https://linusshyu.dev
+I build tools that sit close to the machine — native macOS apps,
+autonomous agents that run unattended, low-level CLIs.
 ```
-
-### <a name="help"></a>`$ help`
-
-Every line below is clickable — commands jump to a section, <code>details</code> expand right here：<code>$ <a href="#projects">ls projects/</a></code> · <code>$ <a href="#log">tail -f contributions.log</a></code> · <code>$ <a href="#last">last</a></code> · <code>$ <a href="#contact">contact</a></code>
-
-Each <code>details</code> below expands in place — no navigation, no reload.
 
 ### <a name="projects"></a>`$ ls projects/`
 
@@ -109,6 +111,16 @@ sudo: no tty present and no askpass program specified
 
 </details>
 
+<details>
+<summary><code>$ exit</code></summary>
+
+```console
+logout
+Connection to github.com closed.
+```
+
+</details>
+
 <div align="center">
-  <sub>guestbook: issues + Actions · snake: <a href="https://github.com/Platane/snk">Platane/snk</a> · <img src="https://komarev.com/ghpvc/?username=Linus-Shyu&label=visitors&color=2f7d52&style=flat-square" alt="visitors" height="16" /></sub>
+  <sub>guestbook: issues + Actions · snake: <a href="https://github.com/Platane/snk">Platane/snk</a> · <img src="https://komarev.com/ghpvc/?username=Linus-Shyu&label=visitors&color=39d353&style=flat-square" alt="visitors" height="16" /></sub>
 </div>
