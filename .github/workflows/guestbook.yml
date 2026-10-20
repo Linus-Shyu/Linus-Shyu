@@ -11,9 +11,10 @@ permissions:
   contents: write
   issues: write
 
+# 串行执行：两个访客同时留言时不要互相覆盖
 concurrency:
   group: guestbook
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -23,22 +24,36 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Rebuild the visitor log
+      - name: Rebuild the visitor log and push it
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python3 scripts/guestbook.py
-
-      - name: Commit if the log changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          if git diff --cached --quiet; then
-            echo "no change"
-          else
-            git commit -m "chore(guestbook): refresh the visitor log"
-            git push
-          fi
+
+          # 每次都从远端最新 README 重新生成，避免两次运行抢同一个提交
+          for attempt in 1 2 3; do
+            git fetch -q origin master
+            git reset -q --hard origin/master
+            python3 scripts/guestbook.py
+            git add README.md
+
+            if git diff --cached --quiet; then
+              echo "log unchanged"
+              exit 0
+            fi
+
+            git commit -q -m "chore(guestbook): refresh the visitor log"
+            if git push -q origin master; then
+              echo "log pushed"
+              exit 0
+            fi
+            echo "push raced, retrying (attempt $attempt)"
+            sleep 5
+          done
+
+          echo "could not push the guestbook update" >&2
+          exit 1
 
       - name: Welcome the visitor
         if: github.event_name == 'issues' && github.event.action == 'opened' && github.event.issue.user.type != 'Bot'
