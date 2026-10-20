@@ -34,6 +34,8 @@ jobs:
       # 这样不管 GitHub 是 light 还是 dark 主题，图都是黑底紫蛇。
       - name: Bake black background into the SVG
         run: |
+          # snk 跑在容器里，产物属主是 root，改文件前先拿回来
+          sudo chown -R "$(id -u):$(id -g)" dist
           python3 - <<'PY'
           import pathlib, re
 
