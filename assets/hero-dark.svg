@@ -197,10 +197,12 @@
   <rect x="418" y="332" width="15" height="9" rx="2" fill="#8be9fd"/>
   <rect x="435" y="332" width="15" height="9" rx="2" fill="#f8f8f2"/>
 
-  <text x="52" y="352" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, 'JetBrains Mono', Consolas, monospace" font-size="14" fill="#3fe066">➜</text>
-  <text x="72" y="352" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, 'JetBrains Mono', Consolas, monospace" font-size="14" fill="#cdf5d4">~</text>
-  <text x="92" y="352" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, 'JetBrains Mono', Consolas, monospace" font-size="14" fill="#4e6a57">git:(master) $</text>
-  <rect class="cur" x="210" y="340" width="9" height="15" fill="#3fe066"/>
+  <text x="52" y="352" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, 'JetBrains Mono', Consolas, monospace" font-size="14">
+    <tspan fill="#3fe066">➜</tspan>
+    <tspan fill="#cdf5d4"> ~</tspan>
+    <tspan fill="#4e6a57"> git:(master) $</tspan>
+    <tspan class="cur" fill="#3fe066"> █</tspan>
+  </text>
 
   <rect x="24" y="24" width="952" height="332" rx="16" fill="url(#nf-dark-scan)"/>
   <rect width="1000" height="380" rx="22" fill="url(#nf-dark-vignette)"/>

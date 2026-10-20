@@ -192,10 +192,12 @@ def render(theme: str, counts: dict[str, str]) -> str:
 
   {palette}
 
-  <text x="52" y="352" font-family="{MONO}" font-size="14" fill="{green}">➜</text>
-  <text x="72" y="352" font-family="{MONO}" font-size="14" fill="{value}">~</text>
-  <text x="92" y="352" font-family="{MONO}" font-size="14" fill="{dim}">git:(master) $</text>
-  <rect class="cur" x="210" y="340" width="9" height="15" fill="{green}"/>
+  <text x="52" y="352" font-family="{MONO}" font-size="14">
+    <tspan fill="{green}">➜</tspan>
+    <tspan fill="{value}"> ~</tspan>
+    <tspan fill="{dim}"> git:(master) $</tspan>
+    <tspan class="cur" fill="{green}"> █</tspan>
+  </text>
 
   <rect x="24" y="24" width="952" height="332" rx="16" fill="url(#{pid}-scan)"/>
   <rect width="1000" height="380" rx="22" fill="url(#{pid}-vignette)"/>
