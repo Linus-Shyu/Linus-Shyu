@@ -5,11 +5,11 @@
 
   <rect x="56" y="64" width="210" height="76" rx="12" fill="#0f1511" stroke="#1d221c"/>
   <text x="74" y="100" font-size="22" font-family="'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif">⭐</text>
-  <text x="112" y="100" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="20" font-weight="700" fill="#3fe066">103</text>
+  <text x="112" y="100" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="20" font-weight="700" fill="#3fe066">87</text>
   <text x="74" y="128" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#4e6a57">Stars</text>
   <rect x="278" y="64" width="210" height="76" rx="12" fill="#0f1511" stroke="#1d221c"/>
   <text x="296" y="100" font-size="22" font-family="'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif">📦</text>
-  <text x="334" y="100" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="20" font-weight="700" fill="#3fe066">75</text>
+  <text x="334" y="100" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="20" font-weight="700" fill="#3fe066">58</text>
   <text x="296" y="128" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#4e6a57">Repositories</text>
   <rect x="500" y="64" width="210" height="76" rx="12" fill="#0f1511" stroke="#1d221c"/>
   <text x="518" y="100" font-size="22" font-family="'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif">👥</text>
