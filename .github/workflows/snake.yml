@@ -30,9 +30,11 @@ jobs:
           outputs: |
             dist/github-snake.svg?color_snake=%23e0c3fc&color_dots=%231c1b22,%232e2540,%234c2f7a,%237a3fbf,%23a855f7
 
-      # snk 不支持背景色参数，这里把一块黑色底板插到 SVG 最底层，
-      # 这样不管 GitHub 是 light 还是 dark 主题，图都是黑底紫蛇。
-      - name: Bake black background into the SVG
+      # snk 本身不支持背景色，这里做两步收尾：
+      # 1. 去掉格子下方那条会生长的进度彩带（黑底上像一条孤零零的紫杠）
+      # 2. 把一块黑色底板插到 SVG 最底层，这样无论 GitHub 是 light 还是 dark
+      #    主题，图都是黑底紫蛇
+      - name: Bake black theme into the SVG
         run: |
           # snk 跑在容器里，产物属主是 root，改文件前先拿回来
           sudo chown -R "$(id -u):$(id -g)" dist
@@ -43,14 +45,17 @@ jobs:
 
           for path in pathlib.Path("dist").glob("*.svg"):
               svg = path.read_text(encoding="utf-8")
+
+              svg, ribbon = re.subn(r'<rect class="u u[0-9a-z]+"[^>]*/>', "", svg)
+
               box = re.search(r'viewBox="(-?[\d.]+) (-?[\d.]+) ([\d.]+) ([\d.]+)"', svg)
               x, y, w, h = box.groups()
               plate = f'<rect x="{x}" y="{y}" width="{w}" height="{h}" fill="{bg_color}"/>'
-              if plate in svg:
-                  continue
-              svg = svg.replace(">", ">" + plate, 1)
+              if plate not in svg:
+                  svg = svg.replace(">", ">" + plate, 1)
+
               path.write_text(svg, encoding="utf-8")
-              print(f"{path}: background added on viewBox {x} {y} {w} {h}")
+              print(f"{path}: removed {ribbon} ribbon rects, background {x} {y} {w} {h}")
           PY
 
       - name: Publish to output branch
