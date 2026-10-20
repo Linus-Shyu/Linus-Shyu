@@ -9,70 +9,39 @@
 </div>
 
 ```console
-$ ssh Linus@github
-
-$ whoami
-Linus
-
-$ ls -F
-about.txt   projects/   contributions.log   guestbook.log   contact
-
 $ cat about.txt
 I build tools that sit close to the machine — native macOS apps,
 autonomous agents that run unattended, low-level CLIs.
 ```
 
-### <a name="projects"></a>`$ ls projects/`
+<details>
+<summary>🛠️ Projects</summary>
+<br>
 
-<details open>
-<summary><code>$ cat projects/Luma-Bar/README.md</code></summary>
-
-**`Luma-Bar/`** — Dynamic Island around the MacBook notch: music, a local AI agent, voice, notifications, pets.
-`Swift` · AdventureX 2026 · 2nd prize · Apache-2.0 → [repo](https://github.com/Linus-Shyu/Luma-Bar)
+- 🎵 **[Luma-Bar](https://github.com/Linus-Shyu/Luma-Bar)** `Swift` — Dynamic Island around the MacBook notch: music, a local AI agent, voice, notifications, pets.
+- 🦀 **[StarFetch_Core](https://github.com/Linus-Shyu/StarFetch_Core)** `Rust` — Neofetch, rewritten in Rust.
+- ⌨️ **[XTerminal](https://github.com/XTerminalApp/XTerminal)** `HTML` — Next-generation tooling for hacker competitions.
+- 📈 **[XGrowth](https://github.com/Linus-Shyu/XGrowth)** `JavaScript` — Autonomous growth engine for X: zero-waste API spend, self-evolving hooks.
+- ⛓️ **[Ether-Hunt](https://github.com/Linus-Shyu/Ether-Hunt)** `TypeScript` — AI on-chain audit, ETHOnline 2026 (Hedera x402 · The Graph · Arc).
+- ₿ **[dot-crypto-ticker](https://github.com/Linus-Shyu/dot-crypto-ticker)** `Rust` — Real-time crypto prices on Dot devices.
 
 </details>
 
 <details>
-<summary><code>$ cat projects/StarFetch_Core/README.md</code></summary>
+<summary>📊 GitHub Stats</summary>
+<br>
 
-**`StarFetch_Core/`** — Neofetch, rewritten in Rust.
-`Rust` → [repo](https://github.com/Linus-Shyu/StarFetch_Core)
-
-</details>
-
-<details>
-<summary><code>$ cat projects/XTerminal/README.md</code></summary>
-
-**`XTerminal/`** — Next-generation tooling for hacker competitions.
-`HTML` → [repo](https://github.com/XTerminalApp/XTerminal)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Linus-Shyu&show_icons=true&hide_border=true&bg_color=0d1117&title_color=3fe066&text_color=cdf5d4&icon_color=9affbd&rank_icon=github&hide=contribs" alt="GitHub stats" />
+  <br /><br />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Linus-Shyu&layout=donut&hide_border=true&bg_color=0d1117&title_color=3fe066&text_color=cdf5d4&langs_count=8&size_weight=0.4&count_weight=0.6&hide=html,css" alt="Most used languages" />
+  <br /><br />
+  <img src="https://streak-stats.demolab.com?user=Linus-Shyu&hide_border=true&background=0d1117&stroke=123c24&ring=3fe066&fire=9affbd&currStreakNum=9affbd&currStreakLabel=3fe066&sideNums=cdf5d4&sideLabels=4e6a57&dates=4e6a57" alt="Contribution streak" />
+</p>
 
 </details>
 
-<details>
-<summary><code>$ cat projects/XGrowth/README.md</code></summary>
-
-**`XGrowth/`** — Autonomous growth engine for X: zero-waste API spend, bilingual peak-hour posting, self-evolving hooks, live dashboard.
-`JavaScript` → [repo](https://github.com/Linus-Shyu/XGrowth)
-
-</details>
-
-<details>
-<summary><code>$ cat projects/Ether-Hunt/README.md</code></summary>
-
-**`Ether-Hunt/`** — AI on-chain audit built at ETHOnline 2026 (Hedera x402 · The Graph · Arc).
-`TypeScript` → [repo](https://github.com/Linus-Shyu/Ether-Hunt)
-
-</details>
-
-<details>
-<summary><code>$ cat projects/dot-crypto-ticker/README.md</code></summary>
-
-**`dot-crypto-ticker/`** — Real-time crypto prices on Dot devices.
-`Rust` → [repo](https://github.com/Linus-Shyu/dot-crypto-ticker)
-
-</details>
-
-### <a name="log"></a>`$ tail -f contributions.log`
+## 🐍 Contribution Snake
 
 <p align="center">
   <picture>
@@ -83,13 +52,8 @@ autonomous agents that run unattended, low-level CLIs.
 </p>
 
 <details>
-<summary><code>$ play snake</code></summary>
-
-The same snake is playable: open [platane.github.io/snk](https://platane.github.io/snk/) and type `Linus-Shyu` to play on my contribution graph.
-
-</details>
-
-### <a name="last"></a>`$ last`
+<summary>📝 Guestbook</summary>
+<br>
 
 <!-- GUESTBOOK:START -->
 _Nobody has signed in yet — you could be the first._
@@ -97,31 +61,13 @@ _Nobody has signed in yet — you could be the first._
 
 <code>$ <a href="https://github.com/Linus-Shyu/Linus-Shyu/issues/new?template=guestbook.yml">echo "hi" >> guestbook.log</a></code> — one line, and the table above grows by a row.
 
-### <a name="contact"></a>`$ contact`
-
-[`linusshyu.dev`](https://linusshyu.dev) &nbsp;·&nbsp; [`@Linus_Shyu`](https://x.com/Linus_Shyu) &nbsp;·&nbsp; [`YouTube`](https://www.youtube.com/@LinusShyu) &nbsp;·&nbsp; [`bilibili`](https://space.bilibili.com/411591950)
-
-<details>
-<summary><code>$ sudo make me a sandwich</code></summary>
-
-```console
-sudo: a terminal is required to read the password
-sudo: no tty present and no askpass program specified
-```
-
-</details>
-
-<details>
-<summary><code>$ exit</code></summary>
-
-```console
-logout
-Connection to github.com closed.
-```
-
 </details>
 
 <div align="center">
+
+🌐 [linusshyu.dev](https://linusshyu.dev) &nbsp;·&nbsp; 𝕏 [@Linus_Shyu](https://x.com/Linus_Shyu) &nbsp;·&nbsp; ▶️ [YouTube](https://www.youtube.com/@LinusShyu) &nbsp;·&nbsp; 📺 [bilibili](https://space.bilibili.com/411591950)
+
+<br>
 
 guestbook: `issues + Actions` · snake: [Platane/snk](https://github.com/Platane/snk) · <img align="middle" alt="visitors" src="https://komarev.com/ghpvc/?username=Linus-Shyu&amp;label=visitors&amp;color=39d353&amp;style=flat-square" />
 
