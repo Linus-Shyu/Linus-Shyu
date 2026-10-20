@@ -22,40 +22,42 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - name: Generate snake SVG
+      - name: Generate snake SVGs
         uses: Platane/snk@v3
         id: snake
         with:
           github_user_name: ${{ github.repository_owner }}
+          # dark + light 两版，README 里用 <picture> 按主题切换
           outputs: |
             dist/github-snake.svg?color_snake=%23e0c3fc&color_dots=%231c1b22,%232e2540,%234c2f7a,%237a3fbf,%23a855f7
+            dist/github-snake-light.svg?color_snake=%233b0764&color_dots=%23efeaf7,%23d9c9f2,%23b58ae6,%238b4fd6,%237c3aed
 
       # snk 本身不支持背景色，这里做两步收尾：
-      # 1. 去掉格子下方那条会生长的进度彩带（黑底上像一条孤零零的紫杠）
-      # 2. 把一块黑色底板插到 SVG 最底层，这样无论 GitHub 是 light 还是 dark
-      #    主题，图都是黑底紫蛇
-      - name: Bake black theme into the SVG
+      # 1. 去掉格子下方那条会生长的进度彩带（贴底色后像一条孤零零的色块）
+      # 2. 把一块纯色底板插到 SVG 最底层，这样不管 GitHub 是 light 还是 dark
+      #    主题，图和页面底色都是无缝的
+      - name: Bake theme colours into the SVGs
         run: |
           # snk 跑在容器里，产物属主是 root，改文件前先拿回来
           sudo chown -R "$(id -u):$(id -g)" dist
           python3 - <<'PY'
           import pathlib, re
 
-          bg_color = "#0b0b10"
-
           for path in pathlib.Path("dist").glob("*.svg"):
-              svg = path.read_text(encoding="utf-8")
+              # 文件名里带 light 的用白底，其余用黑底
+              plate_color = "#ffffff" if "light" in path.stem else "#0b0b10"
 
+              svg = path.read_text(encoding="utf-8")
               svg, ribbon = re.subn(r'<rect class="u u[0-9a-z]+"[^>]*/>', "", svg)
 
               box = re.search(r'viewBox="(-?[\d.]+) (-?[\d.]+) ([\d.]+) ([\d.]+)"', svg)
               x, y, w, h = box.groups()
-              plate = f'<rect x="{x}" y="{y}" width="{w}" height="{h}" fill="{bg_color}"/>'
+              plate = f'<rect x="{x}" y="{y}" width="{w}" height="{h}" fill="{plate_color}"/>'
               if plate not in svg:
                   svg = svg.replace(">", ">" + plate, 1)
 
               path.write_text(svg, encoding="utf-8")
-              print(f"{path}: removed {ribbon} ribbon rects, background {x} {y} {w} {h}")
+              print(f"{path.name}: plate {plate_color}, removed {ribbon} ribbon rects")
           PY
 
       - name: Publish to output branch
