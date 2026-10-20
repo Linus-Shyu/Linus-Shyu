@@ -41,6 +41,26 @@ autonomous agents that run unattended, low-level CLIs.
 
 </details>
 
+<details>
+<summary>📈 Contribution Activity</summary>
+<br>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Linus-Shyu/Linus-Shyu/master/assets/activity.svg" alt="Contribution activity, last 12 months" width="100%" />
+</p>
+
+</details>
+
+<details>
+<summary>🏆 Trophy Wall</summary>
+<br>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Linus-Shyu/Linus-Shyu/master/assets/trophies.svg" alt="Trophy wall" width="100%" />
+</p>
+
+</details>
+
 ## 🐍 Contribution Snake
 
 <p align="center">
