@@ -1,0 +1,51 @@
+name: Guestbook
+
+# 访客通过 issue 留言，这里把 issue 列表重新渲染成 README 里的 log 表。
+# 每条留言都来自 issue，删掉 issue 后重跑就会从列表里消失。
+on:
+  issues:
+    types: [opened, edited, reopened, deleted]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: guestbook
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Rebuild the visitor log
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/guestbook.py
+
+      - name: Commit if the log changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "no change"
+          else
+            git commit -m "chore(guestbook): refresh the visitor log"
+            git push
+          fi
+
+      - name: Welcome the visitor
+        if: github.event_name == 'issues' && github.event.action == 'opened' && github.event.issue.user.type != 'Bot'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NUMBER: ${{ github.event.issue.number }}
+          LOGIN: ${{ github.event.issue.user.login }}
+        run: |
+          gh issue comment "$NUMBER" --body "Welcome aboard, @$LOGIN — you are in the visitor log on the profile README now. Closing this so the list stays tidy."
+          gh issue close "$NUMBER"

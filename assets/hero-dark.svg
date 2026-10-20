@@ -1,79 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240" width="1000" height="240" role="img" aria-label="Linus Shyu — AI-native tools, autonomous agents, on-chain experiments">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" width="1000" height="260" role="img" aria-label="Linus Shyu — native macOS apps, autonomous agents, on-chain tools">
   <defs>
-    <linearGradient id="dark-name" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="55%" stop-color="#e0c3fc"/>
-      <stop offset="100%" stop-color="#a855f7"/>
+    <linearGradient id="term-dark-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0c1411"/><stop offset="100%" stop-color="#131d18"/>
     </linearGradient>
-    <radialGradient id="dark-glow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.30"/>
-      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+    <radialGradient id="term-dark-light" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="dark-dots" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="1.6" cy="1.6" r="1.6" fill="#ffffff" opacity="0.08"/>
-    </pattern>
-    <linearGradient id="dark-rule" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.95"/>
-      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
-    </linearGradient>
+    <style>
+      .cursor { animation: term-dark-blink 1.1s steps(1) infinite; }
+      @keyframes term-dark-blink { 0%,49% { opacity: 1 } 50%,100% { opacity: 0 } }
+    </style>
   </defs>
 
-  <rect width="1000" height="240" rx="18" fill="#0b0b10"/>
-  <rect width="1000" height="240" rx="18" fill="url(#dark-dots)"/>
-  <ellipse cx="820" cy="20" rx="420" ry="300" fill="url(#dark-glow)"/>
+  <rect width="1000" height="260" rx="20" fill="url(#term-dark-bg)"/>
+  <ellipse cx="820" cy="10" rx="380" ry="230" fill="url(#term-dark-light)"/>
+  <g transform="translate(271,223) rotate(-37) scale(0.94)" opacity="0.95"><path d="M0 0 q10 -14 0 -26 q-10 12 0 26" fill="#234b3a"/></g>
+  <g transform="translate(188,216) rotate(-42) scale(0.94)" opacity="0.95"><path d="M0 0 q10 -14 0 -26 q-10 12 0 26" fill="#2c5a46"/></g>
+  <g transform="translate(969,223) rotate(47) scale(0.88)" opacity="0.95"><path d="M0 0 q10 -14 0 -26 q-10 12 0 26" fill="#2c5a46"/></g>
+  <g transform="translate(579,225) rotate(-15) scale(1.09)" opacity="0.95"><path d="M0 0 q10 -14 0 -26 q-10 12 0 26" fill="#2c5a46"/></g>
+  <g transform="translate(298,220) rotate(-47) scale(1.08)" opacity="0.95"><path d="M0 0 q10 -14 0 -26 q-10 12 0 26" fill="#234b3a"/></g>
+  <g transform="translate(849,222) rotate(-26) scale(0.91)" opacity="0.95"><path d="M0 0 q10 -14 0 -26 q-10 12 0 26" fill="#2c5a46"/></g>
+  <g transform="translate(672,241) rotate(43) scale(0.83)" opacity="0.95"><path d="M0 0 q10 -14 0 -26 q-10 12 0 26" fill="#386e56"/></g>
 
-  <g>
-    <rect x="692" y="76" width="18" height="18" rx="4" fill="#c084fc"/>
-    <rect x="722" y="76" width="18" height="18" rx="4" fill="#c084fc"/>
-    <rect x="752" y="76" width="18" height="18" rx="4" fill="#c084fc"/>
-    <rect x="782" y="76" width="18" height="18" rx="4" fill="#3b2a5c"/>
-    <rect x="812" y="76" width="18" height="18" rx="4" fill="#3b2a5c"/>
-    <rect x="842" y="76" width="18" height="18" rx="4" fill="#c084fc"/>
-    <rect x="872" y="76" width="18" height="18" rx="4" fill="#3b2a5c"/>
-    <rect x="902" y="76" width="18" height="18" rx="4" fill="#241a33"/>
-    <rect x="932" y="76" width="18" height="18" rx="4" fill="#c084fc"/>
-    <rect x="692" y="106" width="18" height="18" rx="4" fill="#5b3a91"/>
-    <rect x="722" y="106" width="18" height="18" rx="4" fill="#3b2a5c"/>
-    <rect x="752" y="106" width="18" height="18" rx="4" fill="#241a33"/>
-    <rect x="782" y="106" width="18" height="18" rx="4" fill="#241a33"/>
-    <rect x="812" y="106" width="18" height="18" rx="4" fill="#8250cf"/>
-    <rect x="842" y="106" width="18" height="18" rx="4" fill="#c084fc"/>
-    <rect x="872" y="106" width="18" height="18" rx="4" fill="#3b2a5c"/>
-    <rect x="902" y="106" width="18" height="18" rx="4" fill="#241a33"/>
-    <rect x="932" y="106" width="18" height="18" rx="4" fill="#241a33"/>
-    <rect x="692" y="136" width="18" height="18" rx="4" fill="#241a33"/>
-    <rect x="722" y="136" width="18" height="18" rx="4" fill="#241a33"/>
-    <rect x="752" y="136" width="18" height="18" rx="4" fill="#3b2a5c"/>
-    <rect x="782" y="136" width="18" height="18" rx="4" fill="#3b2a5c"/>
-    <rect x="812" y="136" width="18" height="18" rx="4" fill="#241a33"/>
-    <rect x="842" y="136" width="18" height="18" rx="4" fill="#c084fc"/>
-    <rect x="872" y="136" width="18" height="18" rx="4" fill="#5b3a91"/>
-    <rect x="902" y="136" width="18" height="18" rx="4" fill="#c084fc"/>
-    <rect x="932" y="136" width="18" height="18" rx="4" fill="#3b2a5c"/>
-    <rect x="692" y="166" width="18" height="18" rx="4" fill="#3b2a5c"/>
-    <rect x="722" y="166" width="18" height="18" rx="4" fill="#5b3a91"/>
-    <rect x="752" y="166" width="18" height="18" rx="4" fill="#c084fc"/>
-    <rect x="782" y="166" width="18" height="18" rx="4" fill="#241a33"/>
-    <rect x="812" y="166" width="18" height="18" rx="4" fill="#241a33"/>
-    <rect x="842" y="166" width="18" height="18" rx="4" fill="#c084fc"/>
-    <rect x="872" y="166" width="18" height="18" rx="4" fill="#5b3a91"/>
-    <rect x="902" y="166" width="18" height="18" rx="4" fill="#8250cf"/>
-    <rect x="932" y="166" width="18" height="18" rx="4" fill="#241a33"/>
-    <rect x="692" y="196" width="18" height="18" rx="4" fill="#5b3a91"/>
-    <rect x="722" y="196" width="18" height="18" rx="4" fill="#5b3a91"/>
-    <rect x="752" y="196" width="18" height="18" rx="4" fill="#3b2a5c"/>
-    <rect x="782" y="196" width="18" height="18" rx="4" fill="#5b3a91"/>
-    <rect x="812" y="196" width="18" height="18" rx="4" fill="#241a33"/>
-    <rect x="842" y="196" width="18" height="18" rx="4" fill="#241a33"/>
-    <rect x="872" y="196" width="18" height="18" rx="4" fill="#241a33"/>
-    <rect x="902" y="196" width="18" height="18" rx="4" fill="#8250cf"/>
-    <rect x="932" y="196" width="18" height="18" rx="4" fill="#241a33"/>
-  </g>
+  <rect x="40" y="34" width="920" height="192" rx="14" fill="#000000" opacity="0.55"/>
+  <rect x="40" y="30" width="920" height="192" rx="14" fill="#111a16" stroke="#22322c"/>
+  <path d="M40 44 a14 14 0 0 1 14 -14 h892 a14 14 0 0 1 14 14 v20 h-920 Z" fill="#182420"/>
+  <circle cx="62" cy="47" r="4.4" fill="#eda4a4"/><circle cx="77" cy="47" r="4.4" fill="#eed49a"/><circle cx="92" cy="47" r="4.4" fill="#a3dcae"/>
+  <text x="112" y="51.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, 'JetBrains Mono', Consolas, monospace" font-size="11.5" fill="#7c9a8b">linus@agent-lab — ~/profile</text>
 
-  <rect x="56" y="52" width="26" height="3" rx="1.5" fill="url(#dark-rule)"/>
-  <text x="94" y="58" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" letter-spacing="4" fill="#a855f7">YOUNG AGENT LAB · HONG KONG</text>
-
-  <text x="54" y="146" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="72" font-weight="800" letter-spacing="-1.5" fill="url(#dark-name)">Linus Shyu</text>
-
-  <text x="56" y="190" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="20" fill="#a79cc4">AI-native tools · autonomous agents · on-chain experiments</text>
+  <text x="64" y="92" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, 'JetBrains Mono', Consolas, monospace" font-size="13.5" fill="#7c9a8b">~/profile $ <tspan fill="#7ee787">whoami</tspan></text>
+  <text x="64" y="127" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, 'JetBrains Mono', Consolas, monospace" font-size="30" font-weight="700" fill="#e2f0e6" letter-spacing="-0.6">Linus Shyu</text>
+  <text x="64" y="156" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, 'JetBrains Mono', Consolas, monospace" font-size="13.5" fill="#7c9a8b">~/profile $ <tspan fill="#7ee787">cat about.txt</tspan></text>
+  <text x="64" y="180" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, 'JetBrains Mono', Consolas, monospace" font-size="13" fill="#e2f0e6">native macOS apps · autonomous agents · on-chain tools</text>
+  <text x="64" y="207" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, 'JetBrains Mono', Consolas, monospace" font-size="13.5" fill="#7c9a8b">~/profile $</text>
+  <rect class="cursor" x="146" y="195" width="8" height="15" fill="#7ee787"/>
 </svg>

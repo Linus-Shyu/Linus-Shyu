@@ -1,0 +1,19 @@
+name: Sign the guestbook
+description: Leave one line in the visitor log on my profile README.
+title: "guestbook"
+labels: ["guestbook"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        One line, plain text, ~110 characters max. It shows up as a row in
+        [`$ last`](https://github.com/Linus-Shyu) on my profile README.
+        No links or formatting — it gets rendered as a terminal log line.
+  - type: textarea
+    id: note
+    attributes:
+      label: Your note
+      placeholder: "hello from Tokyo — your snake ate my whole afternoon"
+      render: text
+    validations:
+      required: true
