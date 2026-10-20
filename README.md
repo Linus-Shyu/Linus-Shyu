@@ -123,6 +123,6 @@ Connection to github.com closed.
 
 <div align="center">
 
-guestbook: `issues + Actions` · snake: [Platane/snk](https://github.com/Platane/snk) · ![visitors](https://komarev.com/ghpvc/?username=Linus-Shyu&label=visitors&color=39d353&style=flat-square)
+guestbook: `issues + Actions` · snake: [Platane/snk](https://github.com/Platane/snk) · <img align="middle" alt="visitors" src="https://komarev.com/ghpvc/?username=Linus-Shyu&amp;label=visitors&amp;color=39d353&amp;style=flat-square" />
 
 </div>
