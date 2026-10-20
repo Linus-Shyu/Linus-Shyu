@@ -18,7 +18,7 @@ Young Agent Lab · Hong Kong · https://linusshyu.dev
 
 Every line below is clickable — commands jump to a section, <code>details</code> expand right here：<code>$ <a href="#projects">ls projects/</a></code> · <code>$ <a href="#log">tail -f contributions.log</a></code> · <code>$ <a href="#last">last</a></code> · <code>$ <a href="#contact">contact</a></code>
 
-下面这些 <code>details</code> 都是**就地展开**的，点一下就在当前页面出结果。
+Each <code>details</code> below expands in place — no navigation, no reload.
 
 ### <a name="projects"></a>`$ ls projects/`
 
